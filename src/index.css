@@ -10,9 +10,52 @@ header {
     padding-bottom: 40px;
 }
 
+.search-form {
+    display: flex;
+    justify-content: center;
+}
+
+.search-form-input {
+    border: none;
+    background-color: #EEF1F8;
+    border-radius: 5px;
+    width: 86%;
+    padding: 15px;
+    margin-right: 5px;
+}
+
+.search-form-button {
+    border: none;
+    background-color: #0B2A41;
+    border-radius: 5px;
+    padding: 15px 30px;
+    color: #EEF1F8;
+    margin-left: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-form-button:hover {
+    background-color: #0b2a4192;
+    cursor: pointer;
+}
+
 main {
     color: #0B2A41;
     padding: 15px 0px 35px 0px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-app {
+    background-color: white;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
@@ -20,6 +63,31 @@ h1 {
     margin: 0;
     padding-right: 60px;
     font-weight: 600;
+}
+
+.date-time {
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    color: #0b2a41b2;
+}
+
+.temperature-value-container {
+    display: flex;
+    font-size: 65px;
+    margin: 0;
+    font-weight: 800;
+}
+
+.temperature-icon {
+    font-size: 35px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.humidity-wind {
+    font-size: small;
+    color: #0b2a41b2;
 }
 
 footer {
@@ -33,60 +101,4 @@ footer {
 
 a {
     color: #0B2A41;
-}
-
-.weather-app {
-    background-color: white;
-    max-width: 600px;
-    margin: 30px auto;
-    padding: 50px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.search-form {
-    display: flex;
-    justify-content: center;
-}
-
-.search-form-input {
-    border: none;
-    background-color: #EEF1F8;
-    border-radius: 5px;
-    width: 86%;
-    padding: 10px;
-}
-
-.search-form-button {
-    border: none;
-    background-color: #0B2A41;
-    border-radius: 5px;
-    padding: 10px 30px;
-    color: #EEF1F8;
-    margin-left: 5px;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
-}
-
-.search-form-button:hover {
-    background-color: #0b2a4192;
-    color: #0B2A41;
-    cursor: pointer;
-}
-
-.main-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.city-date-time {
-    display: flex;
-    justify-content: space-between;
-    font-size: small;
-    color: #0b2a41b2;
-}
-
-.temperature {
-    font-size: 65px;
-    margin: 0;
-    font-weight: 800;
 }
