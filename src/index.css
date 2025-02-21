@@ -74,6 +74,7 @@ h1 {
 
 .temperature-value-container {
     display: flex;
+    justify-content: right;
     margin: 0;
     font-weight: 800;
 }
@@ -97,6 +98,7 @@ h1 {
     font-size: small;
     color: #0b2a41b2;
     margin-left: 12px;
+    margin-top: 0;
 }
 
 footer {
