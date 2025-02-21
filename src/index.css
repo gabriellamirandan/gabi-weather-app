@@ -74,9 +74,17 @@ h1 {
 
 .temperature-value-container {
     display: flex;
-    font-size: 65px;
     margin: 0;
     font-weight: 800;
+}
+
+.temperature-value {
+    font-size: 65px;
+}
+
+.temperature-unit {
+    font-size: 20px;
+    padding-top: 12px;
 }
 
 .temperature-icon {
