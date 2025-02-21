@@ -16,15 +16,15 @@
 <body>
     <div class="weather-app">
         <header>
-            <form class="search-form">
-                <input type="search" placeholder="Enter a city..." class="search-form-input">
+            <form class="search-form" id="search-form">
+                <input type="search" placeholder="Enter a city..." class="search-form-input" id="city-name">
                 <input type="submit" value="Search" class="search-form-button">
             </form>
         </header>
         <main>
             <div class="main-container">
                 <div>
-                    <h1>Coimbra</h1>
+                    <h1 id="city-h1">Coimbra</h1>
                     <div class="date-time">
                         <p>Tuesday, 18 February <br>
                             Updated at 15:45</p>
@@ -46,6 +46,7 @@
                     href="https://gabiweather.netlify.app/">Netlify</a></div>
         </footer>
     </div>
+    <script src="src/index.js"></script>
 </body>
 
 </html>
