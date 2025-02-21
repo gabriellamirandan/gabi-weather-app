@@ -80,14 +80,15 @@ h1 {
 }
 
 .temperature-icon {
-    font-size: 35px;
-    padding-top: 10px;
-    padding-right: 10px;
+    display: flex;
+    width: 76px;
+    height: 76px;
 }
 
 .humidity-wind {
     font-size: small;
     color: #0b2a41b2;
+    margin-left: 12px;
 }
 
 footer {

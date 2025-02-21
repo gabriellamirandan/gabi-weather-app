@@ -16,7 +16,10 @@ function updateWeather(response) {
     let dateElement = document.querySelector("#date");
     let currentDate = new Date();
     
-    let timeElement = document.querySelector("#time");    
+    let timeElement = document.querySelector("#time");
+    
+    let iconElement = document.querySelector("#temperature-icon");
+    let iconUrl = response.data.condition.icon_url;
 
     cityElement.innerHTML = response.data.city;
     temperatureElement.innerHTML = Math.round(currentTemperature);
@@ -25,7 +28,7 @@ function updateWeather(response) {
     windElement.innerHTML = currentWind;
     dateElement.innerHTML = formatDate(currentDate);
     timeElement.innerHTML = formatTime(currentDate);
-
+    iconElement.innerHTML = `<img src="${iconUrl}" alt="">`;
 }
 
 function formatDate (date){
