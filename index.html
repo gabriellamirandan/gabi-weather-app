@@ -16,21 +16,23 @@
 <body>
     <div class="weather-app">
         <header>
-            <form>
-                <input type="search" placeholder="Enter a city...">
-                <input type="submit" value="Search">
+            <form class="search-form">
+                <input type="search" placeholder="Enter a city..." class="search-form-input">
+                <input type="submit" value="Search" class="search-form-button">
             </form>
         </header>
         <main>
             <div class="main-container">
-                <div class="city-date-time">
+                <div>
                     <h1>Coimbra</h1>
-                    <p>Tuesday, 18 February<br>
-                        Updated at 15:45</p>
+                    <div class="city-date-time">
+                        <p>Tuesday, 18 February</p>
+                        <p>Updated at 15:45</p>
+                    </div>
                 </div>
-                <div class="temperature-humidity-wind">
-                    <p>⛅️ 12ºC <br>
-                        Humidity: 60%, Wind: 5.14km/h</p>
+                <div>
+                    <p class="temperature">⛅️ 12ºC</p>
+                    <p class="humidity-wind">Humidity: 60%, Wind: 5.14km/h</p>
                 </div>
             </div>
         </main>
