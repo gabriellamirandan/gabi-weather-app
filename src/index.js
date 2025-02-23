@@ -33,7 +33,7 @@ function updateWeather(response) {
 
 function formatDate (date){
     const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-    return `${month[date.getMonth()]} ${date.getDay()},`
+    return `${month[date.getMonth()]} ${date.getDate()},`
 }
 
 function formatTime (date){
