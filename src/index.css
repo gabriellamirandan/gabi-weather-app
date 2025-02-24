@@ -103,12 +103,12 @@ h1 {
 
 .weather-forecast {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 40px;
 }
 
 .weather-forecast-day {
-    padding: 15px 25px;
+    padding: 15px 20px;
 }
 
 .weather-forecast-day:hover {
@@ -122,9 +122,10 @@ h1 {
 }
 
 .weather-forecast-icon {
-    text-align: center;
-    font-size: 35px;
-    margin: 10px;
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin: 0 auto;
 }
 
 .weather-forecast-temperatures {
